@@ -1,0 +1,119 @@
+
+
+body{
+     margin: 0;
+
+    /* background-image: url('university.jpg'); */
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),url('university.jpg');
+    background-position: center;
+    height:100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+.nav{
+    display: flex;
+    height: 10vh;
+    width:100vw;
+    background-color:black ;
+    align-items: center;
+    padding-left: 2%;
+    position:sticky;
+}
+.nav-item{
+    margin-right:5%;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.background{
+    height:auto;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-bottom: 30px; */
+}
+.break{
+
+    flex-basis:100%;
+    height:0px;
+}
+.background .box{
+    background-color: black;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    );
+    /* opacity: 0.7; */
+    height:70vh;
+    width:120vh;
+    z-index: -1;
+    position: relative;
+    margin-top:43px;
+}
+h2{
+    scroll-margin-left:30%;
+    z-index:3;
+    color:white;
+    font-size:55px ;
+}
+
+.box img{
+    height:30%;
+    width:30%;
+top:50vh;
+margin-left:40vh;
+position:sticky;
+
+}
+.slideshow{
+    background-color: white;
+    margin-top: 122px;
+    padding:50px;
+ 
+    height:450px;
+}
+.slideshow2{
+    opacity:0.9;
+    background-color: white;
+    margin-top: 122px;
+    padding:50px;
+ 
+    height:450px;
+}
+.slideshow3{
+    opacity:0.9;
+    background-color: white;
+    margin: 122px 0 122px 26%;
+    padding:20px;
+    width:45%;
+    height:450px;
+}
+marquee{
+    flex-basis:70%;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height:6vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+}
+
+
+
+
+
